@@ -16,10 +16,40 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
+    <div class="container secondary-container">
+        <h1>Contact Us</h1>
+        <p class="contact-description">Set up a consultation or simply ask for more information.</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="50bb2096-d869-4496-aee9-bd274d70142c">
+
+            <div class="form-group">
+                <label class="formLabel" for="inputName">Name</label>
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input type="text" class="form-control" name="name" id="inputName" required>
+            </div>
+
+            <div class="form-group">
+                <label class="formLabel" for="inputEmail">Email Address</label>
+                <input type="email" class="form-control" name="email" id="inputEmail" required>
+            </div>
+
+            <div class="form-group">
+                <label class="formLabel" for="inputMessage">Message</label>
+                <textarea name="message" class="form-control" id="inputMessage" required></textarea>
+            </div>
+
+            <!-- hCaptcha Spam Protection -->
+            <div class="h-captcha" data-captcha="true"></div>
+
+            <button type="submit" class="btn btn-primary">Submit Form</button>
+
+        </form>
+        <!-- Required for hCaptcha -->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
     </div>
+
 </body>
 
 </html>

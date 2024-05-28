@@ -12,4 +12,36 @@
 
 body {
     font-family: 'Ametis';
+    color: white;
+    background-color: #a9927d;
+}
+
+.secondary-container {
+    width: 50%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #2e4052;
+    margin-top: 5%;
+    border-radius: 5%;
+    color: white;
+    font-family: "Times New Roman";
+}
+
+.formLabel {
+    margin-bottom: 2%;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.form-control {
+    background-color: white;
+}
+
+.contact-description {
+    font-size: 1.2em;
+}
+
+textarea {
+    height: 2.5em !important;
 }
