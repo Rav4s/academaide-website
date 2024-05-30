@@ -2,10 +2,10 @@
     font-family: 'Ametis';
     src: url('Ametis-Regular.eot');
     src: local('Ametis'), local('Ametis-Regular'),
-        url('/fonts/Ametis-Regular.eot') format('embedded-opentype'),
-        url('/fonts/Ametis-Regular.woff2') format('woff2'),
-        url('/fonts/Ametis-Regular.woff') format('woff'),
-        url('/fonts/Ametis-Regular.ttf') format('truetype');
+        url('./fonts/Ametis-Regular.eot') format('embedded-opentype'),
+        url('./fonts/Ametis-Regular.woff2') format('woff2'),
+        url('./fonts/Ametis-Regular.woff') format('woff'),
+        url('./fonts/Ametis-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
